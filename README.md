@@ -32,7 +32,9 @@ console.log(`Olá o meu nome é ${nome}, ${nome} ${sobrenome}.`);
 
 ![Exercício 2](./assets/Exer2.png)
 
-**1.3** Declare uma variável chamada x sem usar a palavra-chave var, let ou const. Execute o código em Modo Estrito e observe o que acontece.
+## 2. MODO ESTRITO
+
+**2.1** Declare uma variável chamada x sem usar a palavra-chave var, let ou const. Execute o código em Modo Estrito e observe o que acontece.
 
 ```javascript
 "use strict";
@@ -44,3 +46,16 @@ console.log(x);
 **Resultado:**
 
 ![Exercício 3](./assets/Exer3.png)
+
+**2.2** Atribua um valor a uma variável não declarada (por exemplo, y = 10;). Execute o código em Modo Estrito e observe o que acontece.
+
+```javascript
+"use strict";
+
+cor = "Turquesa";
+console.log(cor);
+```
+
+**Resultado:**
+
+![Exercício 4](./assets/Exer4.png)
