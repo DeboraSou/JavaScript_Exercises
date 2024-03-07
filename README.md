@@ -2,12 +2,12 @@
 
 ## ÍNDICE
 
-1. [COMENTÁRIOS](README.md#1-comentários)
+1. [COMENTÁRIOS](README.md#1-comentarios)
 2. [MODO ESTRITO](README.md#2-modo-estrito)
-3. [TIPOS DE VARIÁVEIS](README.md#3-tipos-de-variáveis)
-4. [OPERADORES MATEMÁTICOS](README.md#4-operadores-matemáticos)
+3. [TIPOS DE VARIÁVEIS](README.md#3-tipos-de-variaveis)
+4. [OPERADORES MATEMÁTICOS](README.md#4-operadores-matematicos)
 
-## 1. COMENTÁRIOS {#comentários}
+## 1. COMENTÁRIOS {#comentarios}
 
 **1.1** Escreva um pequeno programa em JavaScript que declare duas variáveis (por exemplo, nome e idade) e atribua valores a elas. Em seguida, adicione comentários explicativos para cada linha de código, explicando o que cada parte faz.
 
@@ -67,7 +67,7 @@ console.log(cor);
 
 ![Exercício 4](./assets/Exer4.png)
 
-## 3. TIPOS DE VARIÁVEIS {#tipos-de-variáveis}
+## 3. TIPOS DE VARIÁVEIS {#tipos-de-variaveis}
 
 **3.1** Declare uma variável chamada idade usando var e atribua a ela o valor 25. Declare outra variável chamada anoNascimento usando let e atribua a ela o valor 1997. Imprima no console a diferença entre anoNascimento e o ano atual.
 
@@ -119,7 +119,7 @@ console.log(`Valor final de j fora do loop (usando let) ${j}.`); // O correrá u
 
 ![Exercício 7](./assets/Exer7.png)
 
-## 4. OPERADORES MATEMÁTICOS {#operadores-matemáticos}
+## 4. OPERADORES MATEMÁTICOS {#operadores-matematicos}
 
 **4.1** Declare duas variáveis, num1 e num2, e atribua a elas valores numéricos diferentes. Realize as operações de adição, subtração, multiplicação e divisão e resto da divisão entre essas duas variáveis. Imprima os resultados no console.
 
