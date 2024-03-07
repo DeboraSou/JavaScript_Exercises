@@ -4,7 +4,7 @@
 
 1. [COMENTÁRIOS](README.md#1-comentarios)
 2. [MODO ESTRITO](README.md#2-modo-estrito)
-3. [TIPOS DE VARIÁVEIS](README.md#3-tipos-de-variaveis)
+3. [TIPOS DE VARIÁVEIS](README.md#3-tipos-de-variáveis)
 4. [OPERADORES MATEMÁTICOS](README.md#4-operadores-matematicos)
 
 ## 1. COMENTÁRIOS {#comentarios}
