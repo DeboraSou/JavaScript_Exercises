@@ -1,6 +1,13 @@
 # EXERCÍCIOS JAVASCRIPT
 
-## 1. COMENTÁRIOS
+## ÍNDICE
+
+1. [COMENTÁRIOS](README.md#1-comentários)
+2. [MODO ESTRITO](README.md#2-modo-estrito)
+3. [TIPOS DE VARIÁVEIS](README.md#3-tipos-de-variáveis)
+4. [OPERADORES MATEMÁTICOS](README.md#4-operadores-matemáticos)
+
+## 1. COMENTÁRIOS {#comentários}
 
 **1.1** Escreva um pequeno programa em JavaScript que declare duas variáveis (por exemplo, nome e idade) e atribua valores a elas. Em seguida, adicione comentários explicativos para cada linha de código, explicando o que cada parte faz.
 
@@ -32,7 +39,7 @@ console.log(`Olá o meu nome é ${nome}, ${nome} ${sobrenome}.`);
 
 ![Exercício 2](./assets/Exer2.png)
 
-## 2. MODO ESTRITO
+## 2. MODO ESTRITO {#modo-estrito}
 
 **2.1** Declare uma variável chamada x sem usar a palavra-chave var, let ou const. Execute o código em Modo Estrito e observe o que acontece.
 
@@ -60,7 +67,7 @@ console.log(cor);
 
 ![Exercício 4](./assets/Exer4.png)
 
-## 3. TIPOS DE VARIÁVEIS
+## 3. TIPOS DE VARIÁVEIS {#tipos-de-variáveis}
 
 **3.1** Declare uma variável chamada idade usando var e atribua a ela o valor 25. Declare outra variável chamada anoNascimento usando let e atribua a ela o valor 1997. Imprima no console a diferença entre anoNascimento e o ano atual.
 
@@ -111,3 +118,58 @@ console.log(`Valor final de j fora do loop (usando let) ${j}.`); // O correrá u
 **Resultado:**
 
 ![Exercício 7](./assets/Exer7.png)
+
+## 4. OPERADORES MATEMÁTICOS {#operadores-matemáticos}
+
+**4.1** Declare duas variáveis, num1 e num2, e atribua a elas valores numéricos diferentes. Realize as operações de adição, subtração, multiplicação e divisão e resto da divisão entre essas duas variáveis. Imprima os resultados no console.
+
+```javascript
+let num1 = 10;
+let num2 = 5;
+
+let soma = num1 + num2;
+console.log(`A soma de ${num1} por ${num2} é: ${soma}.`);
+
+let subtracao = num1 - num2;
+console.log(`A subtração de ${num1} por ${num2} é: ${subtracao}.`);
+
+let multiplicacao = num1 * num2;
+console.log(`A multiplicação de ${num1} por ${num2} é: ${multiplicacao}.`);
+
+let divisao = num1 / num2;
+console.log(`A divisão de ${num1} por ${num2} é: ${divisao}.`);
+
+let restoDivisao = num1 % num2;
+console.log(`O resto da divisão de ${num1} por ${num2} é: ${restoDivisao}.`);
+```
+
+**Resultado:**
+
+![Exercício 8](./assets/Exer8.png)
+
+**4.2** Declare uma variável número e atribua a ela um valor numérico. Utilize o operador de módulo (%) para encontrar o resto da divisão desse número por 3. Imprima o resultado no console.
+
+```javascript
+let numero = 1958;
+let res = 0;
+
+res = numero % 3;
+console.log(res);
+```
+
+**Resultado:**
+
+![Exercício 9](./assets/Exer9.png)
+
+**4.3** Declare uma variável contador e atribua a ela um valor numérico. Utilize os operadores de incremento (++) e decremento (--) para modificar o valor da variável. Imprima os resultados no console.
+
+```javascript
+let contador = 10;
+contador++;
+
+console.log(contador);
+```
+
+**Resultado:**
+
+![Exercício 10](./assets/Exer10.png)
