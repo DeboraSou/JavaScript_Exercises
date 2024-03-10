@@ -6,6 +6,7 @@
 2. [MODO ESTRITO](README.md#2-modo-estrito)
 3. [TIPOS DE VARIÁVEIS](README.md#3-tipos-de-variáveis)
 4. [OPERADORES MATEMÁTICOS](README.md#4-operadores-matemáticos)
+5. [OPERADORES RELACIONAIS](README.md#5-operadores-relacionais)
 
 ## 1. COMENTÁRIOS
 
@@ -173,3 +174,46 @@ console.log(contador);
 **Resultado:**
 
 ![Exercício 10](./assets/Exer10.png)
+
+## 5. OPERADORES RELACIONAIS
+
+**5.1** Declare duas variáveis, por exemplo, a e b, e atribua valores numéricos a elas. Use os operadores relacionais para verificar se a é maior que b. Imprima o resultado no console.
+
+```javascript
+let a = 10, b = 27;
+
+let res = (a > b);
+
+console.log(res);
+```
+
+**Resultado:**
+
+![Exercício 11](./assets/Exer11.png)
+
+**5.2** Declare duas variáveis de string, por exemplo, str1 e str2, e atribua valores a elas. Use os operadores relacionais para verificar se str1 é igual a str2. Imprima o resultado no console.
+
+```javascript
+let str1 = "Comida", str2 = "Comida";
+
+console.log(str1 === str2);
+```
+
+**Resultado:**
+
+![Exercício 12](./assets/Exer12.png)
+
+**5.3** Declare uma variável numérica e outra variável de string. Use os operadores relacionais para verificar se os valores são iguais, sem considerar o tipo. Imprima o resultado no console.
+
+```javascript
+let valor1 = 15, valor2 = "15";
+
+res = valor1 == valor2;
+
+// A resposta só será true, pois o Javascript não leva em consideração o tipo de variável (Number, String, Boolean...). Para dar false é necessário usar o operador de igualdade estrita(`===`).
+console.log(res);
+```
+
+**Resultado:**
+
+![Exercício 13](./assets/Exer13.png)
