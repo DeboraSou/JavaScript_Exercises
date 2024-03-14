@@ -273,5 +273,5 @@ console.log(`%cA multiplicação de ${v1} * ${v2} é: ${multiplicacao}.`, 'color
 **Resultado:**
 
 ![Exercício 16](./assets/Exer16.png)
-![Exercício 16.1](./assets/Exer16.1.png)
-![Exercício 16.2](./assets/Exer16.2.png)
+![Exercício 16](./assets/Exer16.1.png)
+![Exercício 16](./assets/Exer16.2.png)
