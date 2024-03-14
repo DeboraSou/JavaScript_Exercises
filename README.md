@@ -217,5 +217,3 @@ console.log(res);
 **Resultado:**
 
 ![Exercício 13](./assets/Exer13.png)
-
-# 6
