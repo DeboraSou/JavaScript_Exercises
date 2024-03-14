@@ -7,6 +7,7 @@
 3. [TIPOS DE VARIÁVEIS](README.md#3-tipos-de-variáveis)
 4. [OPERADORES MATEMÁTICOS](README.md#4-operadores-matemáticos)
 5. [OPERADORES RELACIONAIS](README.md#5-operadores-relacionais)
+6. [PROMPT](README.md#6-prompt)
 
 ## 1. COMENTÁRIOS
 
