@@ -217,3 +217,60 @@ console.log(res);
 **Resultado:**
 
 ![Exercício 13](./assets/Exer13.png)
+
+## 6. PROMPT
+
+**6.1** Utilize o prompt para solicitar ao usuário que insira seu nome. Armazene o nome em uma variável. Exiba uma mensagem de saudação no console, utilizando o nome fornecido.
+
+```javascript
+let nome = prompt("Digite o seu nome.");
+
+console.log(`Olá, ${nome}!`);
+```
+
+**Resultado:**
+
+![Exercício 14](./assets/Exer14.png)
+![Exercício 14](./assets/Exer14.1.png)
+
+**6.2** Utilize o prompt para solicitar ao usuário que insira sua idade. Armazene a idade em uma variável. Calcule o ano de nascimento com base na idade fornecida. Exiba uma mensagem no console informando o ano de nascimento.
+
+```javascript
+let idade = prompt("Digite a sua idade.");
+
+let data = new Date();
+let anoNascimento = data.getFullYear() - idade;
+
+console.log(`%cVocê nasceu em ${anoNascimento}.`, 'color: #ff0099');
+```
+
+**Resultado:**
+
+![Exercício 15](./assets/Exer15.png)
+![Exercício 15](./assets/Exer15.1.png)
+
+**6.3** Utilize o prompt para solicitar ao usuário que insira dois números. Armazene os números em variáveis. Realize operações simples (por exemplo, adição, subtração, multiplicação) com esses números. Exiba os resultados no console.
+
+```javascript
+let v1 = prompt("Digite o 1º número:");
+let v2 = prompt("Digite o 2º número:");
+
+// O prompt retorna strings, logo é necessário a conversão dos valores para numbers.
+v1 = parseFloat(v1);
+v2 = parseFloat(v2);
+
+let soma = v1 + v2;
+console.log(`%cA soma de ${v1} + ${v2} é: ${soma}.`, 'color: #3300ff');
+
+let subtracao = v1 - v2;
+console.log(`%cA subtração de ${v1} - ${v2} é: ${subtracao}.`, 'color: #ff0000');
+
+let multiplicacao = v1 * v2;
+console.log(`%cA multiplicação de ${v1} * ${v2} é: ${multiplicacao}.`, 'color: #800080');
+```
+
+**Resultado:**
+
+![Exercício 16](./assets/Exer16.png)
+![Exercício 16](./assets/Exer16.1.png)
+![Exercício 16](./assets/Exer16.2.png)
