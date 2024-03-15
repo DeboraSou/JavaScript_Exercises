@@ -8,6 +8,7 @@
 4. [OPERADORES MATEMÁTICOS](README.md#4-operadores-matemáticos)
 5. [OPERADORES RELACIONAIS](README.md#5-operadores-relacionais)
 6. [PROMPT](README.md#6-prompt)
+7. [OPERADORES LÓGICOS](README.md#7-operadores-lógicos)
 
 ## 1. COMENTÁRIOS
 
@@ -275,3 +276,64 @@ console.log(`%cA multiplicação de ${v1} * ${v2} é: ${multiplicacao}.`, 'color
 ![Exercício 16](./assets/Exer16.png)
 ![Exercício 16](./assets/Exer16.1.png)
 ![Exercício 16](./assets/Exer16.2.png)
+
+## 7. OPERADORES LÓGICOS
+
+**7.1** Declare duas variáveis booleanas, por exemplo, temSol e temChuva. Crie uma condição utilizando operadores lógicos (&&, ||, !) que determine se é um bom dia para sair. Por exemplo, pode ser um bom dia se tiver sol e não estiver chovendo.
+
+```javascript
+let temSol = true;
+let temChuva = false;
+
+let clima = "ensolarado";
+
+if (clima === "ensolarado" && !temChuva) {
+    console.log("%cÉ um bom dia para sair.", 'color: #ffffff; background-color: #9999ff');
+} else {
+    console.log("%cNão é um bom dia para sair!", 'color: #ffffff; background-color: #ff0000');
+}
+```
+
+**Resultado:**
+
+![Exercício 17](./assets/Exer17.png)
+
+**7.2** Declare uma variável idade e atribua um valor numérico a ela. Crie uma condição utilizando operadores lógicos para verificar se a pessoa é elegível para votar (por exemplo, se a idade é maior ou igual a 18).
+
+```javascript
+let idade = 18;
+
+if (idade === 16 || idade === 17) {
+    console.log("%cVocê já está apto a votar.", 'color: #ffffff; background-color: #0000ff');
+} else if (idade <= 15) {
+    console.log("%cVocê ainda não pode votar.", 'color: #ffffff; background-color: #ff0000');
+} else if (idade < 70) {
+    console.log("%cVocê tem a obrigação de votar.", 'color: #000000; background-color: #ffa500');
+} else {
+    console.log("%cVocê não tem mais a obrigação de votar.", 'color: #000000; background-color: #00ffa5');
+}
+```
+
+**Resultado:**
+
+![Exercício 18](./assets/Exer18.png)
+
+**7.3** Declare uma variável senha e atribua uma string a ela. Crie uma condição utilizando operadores lógicos para verificar se a senha atende a alguns critérios, como ter pelo menos 8 caracteres e conter pelo menos um número.
+
+```javascript
+const senha = "jt W3k7oC*";
+
+if (
+    /[A-Z]/.test(senha) &&
+    /[!@#$%^&*()_+{}\[\]:;<>,.?~\\\/\-]/.test(senha) &&
+    senha.length >= 8
+) {
+    console.log("%cAcesso concedido, seja bem-vindo!", 'color: #005aff');
+} else {
+    console.log("%cAcesso negado!", 'color: #ff2500');
+}
+```
+
+**Resultado:**
+
+![Exercício 19](./assets/Exer19.png)
