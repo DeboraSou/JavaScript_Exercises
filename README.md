@@ -9,6 +9,7 @@
 5. [OPERADORES RELACIONAIS](README.md#5-operadores-relacionais)
 6. [PROMPT](README.md#6-prompt)
 7. [OPERADORES LÓGICOS](README.md#7-operadores-lógicos)
+8. [OPERADOR BITWISE](README.md#8-operador-bitwise)
 
 ## 1. COMENTÁRIOS
 
@@ -337,3 +338,19 @@ if (
 **Resultado:**
 
 ![Exercício 19](./assets/Exer19.png)
+
+## 8. OPERADOR BITWISE
+
+**8.1** Declare duas variáveis inteiras, por exemplo, a e b. Atribua valores a essas variáveis. Use o operador bitwise AND (&) para realizar a operação bitwise entre esses números. Imprima o resultado.
+
+```javascript
+let a = 5; //  0101.
+let b = 15; // 1111.
+let res = a & b;
+
+console.log(`Operação AND Bitwise: ${res}`); // 5: 0101.
+```
+
+**Resultado:**
+
+![Exercício 20](./assets/Exer20.png)
