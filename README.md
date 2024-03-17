@@ -354,3 +354,16 @@ console.log(`Operação AND Bitwise: ${res}`); // 5: 0101.
 **Resultado:**
 
 ![Exercício 20](./assets/Exer20.png)
+
+**8.2** Declare duas variáveis inteiras, por exemplo, c e d. Atribua valores a essas variáveis. Use o operador bitwise OR (|) para realizar a operação bitwise entre esses números. Imprima o resultado.
+
+```javascript
+let c = 27; //  11011.
+let d = 33; // 100001.
+
+console.log("Operação | Bitwise: " + (c | d)); // 59: 111011.
+```
+
+**Resultado:**
+
+![Exercício 21](./assets/Exer21.png)
