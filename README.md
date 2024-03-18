@@ -367,3 +367,15 @@ console.log("Operação | Bitwise: " + (c | d)); // 59: 111011.
 **Resultado:**
 
 ![Exercício 21](./assets/Exer21.png)
+
+**8.3** Declare uma variável inteira, por exemplo, e. Atribua um valor a essa variável. Use o operador de shift para a esquerda (<<) para deslocar os bits para a esquerda. Imprima o resultado.
+
+```javascript
+let e = 1980; // 11111000100.
+
+console.log("Operação << Bitwise: " + (e << 2) + "."); // 7920: 1111100010000.
+```
+
+**Resultado:**
+
+![Exercício 22](./assets/Exer22.png)
