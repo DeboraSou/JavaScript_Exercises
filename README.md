@@ -10,6 +10,7 @@
 6. [PROMPT](README.md#6-prompt)
 7. [OPERADORES LÓGICOS](README.md#7-operadores-lógicos)
 8. [OPERADOR BITWISE](README.md#8-operador-bitwise)
+9. [OPERAÇÕES PRÉ-INCREMENTO E PÓS-INCREMENTO](README.md#9-operações-pré-incremento-e-pós-incremento)
 
 ## 1. COMENTÁRIOS
 
@@ -379,3 +380,18 @@ console.log("Operação << Bitwise: " + (e << 2) + "."); // 7920: 1111100010000.
 **Resultado:**
 
 ![Exercício 22](./assets/Exer22.png)
+
+## 9. OPERAÇÕES PRÉ-INCREMENTO E PÓS-INCREMENTO
+
+**9.1** Declare uma variável a e atribua a ela o valor 5. Utilize o operador de pré-incremento para incrementar o valor de a. Imprima o valor atual de a no console.
+
+```javascript
+let a = 5;
+++a;
+
+console.log("O valor de a após o pré-incremento é:", a); // 6.
+```
+
+**Resultado:**
+
+![Exercício 23](./assets/Exer23.png)
