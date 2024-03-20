@@ -395,3 +395,17 @@ console.log("O valor de a após o pré-incremento é:", a); // 6.
 **Resultado:**
 
 ![Exercício 23](./assets/Exer23.png)
+
+**9.2** Declare uma variável b e atribua a ela o valor 8. Utilize o operador de pós-incremento para incrementar o valor de b. Imprima o valor original e o novo valor de b no console.
+
+```javascript
+let b = 8;
+
+console.log("Valor de b antes do pós-incremento:", b++);
+
+console.log("Valor de b após o pós-incremento:", b);
+```
+
+**Resultado:**
+
+![Exercício 24](./assets/Exer24.png)
