@@ -409,3 +409,22 @@ console.log("Valor de b após o pós-incremento:", b);
 **Resultado:**
 
 ![Exercício 24](./assets/Exer24.png)
+
+**9.3** Declare uma variável c e atribua a ela o valor 9. Utilize o operador de pré-incremento duas vezes consecutivas em c. Em seguida, utilize o operador de pós-incremento em c. Imprima o valor final de c no console.
+
+```javascript
+let c = 9;
+
+console.log(`Valor original de c: ${c}.`); // 9.
+
+++c;
+++c;
+console.log(`Valor de c após ser pré-incrementado duas vezes consecutivas: ${c}`); // 11.
+
+c++;
+console.log(`Valor final de c, após o pós-incremento: ${c}.`); // 12.
+```
+
+**Resultado:**
+
+![Exercício 25](./assets/Exer25.png)
