@@ -11,6 +11,7 @@
 7. [OPERADORES LÓGICOS](README.md#7-operadores-lógicos)
 8. [OPERADOR BITWISE](README.md#8-operador-bitwise)
 9. [OPERAÇÕES PRÉ-INCREMENTO E PÓS-INCREMENTO](README.md#9-operações-pré-incremento-e-pós-incremento)
+10. [OPERADOR TERNÁRIO](README.md#10-operador-ternário)
 
 ## 1. COMENTÁRIOS
 
@@ -428,3 +429,18 @@ console.log(`Valor final de c, após o pós-incremento: ${c}.`); // 12.
 **Resultado:**
 
 ![Exercício 25](./assets/Exer25.png)
+
+## 10. OPERADOR TERNÁRIO
+
+**10.1** Declare uma variável chamada numero e atribua um número a ela. Use o operador ternário para verificar se o número é par ou ímpar. Imprima no console uma mensagem indicando se o número é par ou ímpar.
+
+```javascript
+let numero = 2;
+let resultado = (numero % 2 == 0) ? "Par" : "Ímpar";
+
+console.log(`O número ${numero} é ${resultado}.`);
+```
+
+**Resultado:**
+
+![Exercício 26](./assets/Exer26.png)
