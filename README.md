@@ -444,3 +444,17 @@ console.log(`O número ${numero} é ${resultado}.`);
 **Resultado:**
 
 ![Exercício 26](./assets/Exer26.png)
+
+**10.2** Declare uma variável chamada idade e atribua um valor a ela. Utilize o operador ternário para verificar se a pessoa é maior de idade (idade >= 18). Imprima no console uma mensagem indicando se a pessoa é maior de idade ou não.
+
+```javascript
+let idade = 33;
+
+let res = idade >= 18 ? "maior de idade" : "menor de idade";
+
+console.log(`Você tem ${idade} anos de idade, portanto você é ${res}.`);
+```
+
+**Resultado:**
+
+![Exercício 27](./assets/Exer27.png)
