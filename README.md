@@ -458,3 +458,19 @@ console.log(`Você tem ${idade} anos de idade, portanto você é ${res}.`);
 **Resultado:**
 
 ![Exercício 27](./assets/Exer27.png)
+
+**10.3** Declare duas variáveis: gênero (pode ser "Masculino" ou "Feminino") e idade. Use o operador ternário para criar uma mensagem de saudação personalizada com base no gênero e idade. Imprima a mensagem no console.
+
+```javascript
+let genero = "Masculino";
+let idade = 27;
+
+let mensagem = (genero === "Feminino") ? "Olá Senhora!" : "Olá Senhor!";
+mensagem += (idade >= 18) ? " Você é uma pessoa adulta." : " Você é menor de idade.";
+
+console.log(`${mensagem}`);
+```
+
+**Resultado:**
+
+![Exercício 28](./assets/Exer28.png)
