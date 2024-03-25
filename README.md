@@ -12,6 +12,7 @@
 8. [OPERADOR BITWISE](README.md#8-operador-bitwise)
 9. [OPERAÇÕES PRÉ-INCREMENTO E PÓS-INCREMENTO](README.md#9-operações-pré-incremento-e-pós-incremento)
 10. [OPERADOR TERNÁRIO](README.md#10-operador-ternário)
+11. [OPERADOR TYPEOF](README.md#11-operador-typeof)
 
 ## 1. COMENTÁRIOS
 
@@ -474,3 +475,17 @@ console.log(`${mensagem}`);
 **Resultado:**
 
 ![Exercício 28](./assets/Exer28.png)
+
+## 11. OPERADOR TYPEOF
+
+**11.1** Declare uma variável chamada numero e atribua a ela um número inteiro. Use o operador typeof para verificar e imprimir o tipo de dado da variável numero.
+
+```javascript
+let numero = 15;
+
+console.log(typeof (numero));
+```
+
+**Resultado:**
+
+![Exercício 29](./assets/Exer29.png)
