@@ -489,3 +489,15 @@ console.log(typeof (numero));
 **Resultado:**
 
 ![Exercício 29](./assets/Exer29.png)
+
+**11.2** Declare uma variável chamada texto e atribua a ela uma string. Use o operador typeof para verificar e imprimir o tipo de dado da variável texto.
+
+```javascript
+let texto = "Sol";
+
+console.log("Valor: " + texto + " - Tipo: " + typeof (texto));
+```
+
+**Resultado:**
+
+![Exercício 30](./assets/Exer30.png)
