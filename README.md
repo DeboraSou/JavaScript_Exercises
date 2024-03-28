@@ -501,3 +501,15 @@ console.log("Valor: " + texto + " - Tipo: " + typeof (texto));
 **Resultado:**
 
 ![Exercício 30](./assets/Exer30.png)
+
+**11.3** Declare uma variável chamada verdadeiroFalso e atribua a ela um valor booleano (true ou false). Use o operador typeof para verificar e imprimir o tipo de dado da variável verdadeiroFalso.
+
+```javascript
+let verdadeiroFalso = true;
+
+console.log("Valor: " + verdadeiroFalso + " - Tipo: " + typeof (verdadeiroFalso));
+```
+
+**Resultado:**
+
+![Exercício 31](./assets/Exer31.png)
