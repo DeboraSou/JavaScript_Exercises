@@ -13,6 +13,7 @@
 9. [OPERAÇÕES PRÉ-INCREMENTO E PÓS-INCREMENTO](README.md#9-operações-pré-incremento-e-pós-incremento)
 10. [OPERADOR TERNÁRIO](README.md#10-operador-ternário)
 11. [OPERADOR TYPEOF](README.md#11-operador-typeof)
+12. [OPERADOR SPREAD](README.md#12-operador-spread)
 
 ## 1. COMENTÁRIOS
 
@@ -513,3 +514,21 @@ console.log("Valor: " + verdadeiroFalso + " - Tipo: " + typeof (verdadeiroFalso)
 **Resultado:**
 
 ![Exercício 31](./assets/Exer31.png)
+
+## 12. OPERADOR SPREAD
+
+**12.1** Crie um array chamado arrayOriginal com alguns elementos. Use o operador spread para criar uma cópia desse array chamada copiaArray. Modifique um elemento no copiaArray e veja se isso afeta o arrayOriginal.
+
+```javascript
+let arrayOriginal = ["Laranja", "Limão", "Abacaxi", "Ameixa", "Uva", "Manga"];
+let copiaArray = [...arrayOriginal];
+
+copiaArray[3] = "Morango";
+
+console.log("Itens do Array Original: ", arrayOriginal);
+console.log("Cópia do Array Original: ", copiaArray);
+```
+
+**Resultado:**
+
+![Exercício 32](./assets/Exer32.png)
