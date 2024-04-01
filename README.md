@@ -548,3 +548,25 @@ console.log(`\nJunção do arry1 e array2:${arrayUnido}.`);
 **Resultado:**
 
 ![Exercício 33](./assets/Exer33.png)
+
+**12.3** Crie um objeto chamado objetoOriginal com algumas propriedades. Use o operador spread para criar um novo objeto chamado objetoAtualizado que contém todas as propriedades de objetoOriginal e adicione uma nova propriedade.
+
+```javascript
+let objetoOriginal = {
+    nome: "Lucas",
+    idade: 25,
+    altura: 1.87,
+};
+
+let objetoAtualizado = {
+    ...objetoOriginal,
+    profissao: "Bombeiro"
+};
+
+console.log("Objeto Original: ", objetoOriginal);
+console.log("Objeto Atualizado: ", objetoAtualizado);
+```
+
+**Resultado:**
+
+![Exercício 34](./assets/Exer34.png)
