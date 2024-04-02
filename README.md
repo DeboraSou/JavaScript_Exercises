@@ -14,6 +14,7 @@
 10. [OPERADOR TERNÁRIO](README.md#10-operador-ternário)
 11. [OPERADOR TYPEOF](README.md#11-operador-typeof)
 12. [OPERADOR SPREAD](README.md#12-operador-spread)
+13. [CONDICIONAL IF E IF ELSE](README.md#13-condicional-if-e-if-else)
 
 ## 1. COMENTÁRIOS
 
@@ -570,3 +571,27 @@ console.log("Objeto Atualizado: ", objetoAtualizado);
 **Resultado:**
 
 ![Exercício 34](./assets/Exer34.png)
+
+## 13. CONDICIONAL IF E IF ELSE
+
+**13.1** Crie uma variável hora e atribua um valor numérico representando a hora do dia (0-24). Use condicionais if e if-else para imprimir no console uma saudação apropriada dependendo do período do dia (por exemplo, "Bom dia", "Boa tarde" ou "Boa noite").
+
+```javascript
+let hora = 8;
+
+if ((hora >= 0) && (hora <= 4)) {
+    console.log("Ainda é madrugada, lua prateada!");
+} else if ((hora >= 5) && (hora <= 11)) {
+    console.log("Bom dia, flor do dia!");
+} else if ((hora >= 12) && (hora <= 18)) {
+    console.log("Boa tarde! riso que acalma.");
+} else if ((hora >= 19) && (hora <= 24)) {
+    console.log("Boa noite, lua princesa!");
+} else {
+    console.log("Vá arrumar algo para fazer!")
+};
+```
+
+**Resultado:**
+
+![Exercício 35](./assets/Exer35.png)
