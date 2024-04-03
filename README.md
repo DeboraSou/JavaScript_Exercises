@@ -595,3 +595,20 @@ if ((hora >= 0) && (hora <= 4)) {
 **Resultado:**
 
 ![Exercício 35](./assets/Exer35.png)
+
+**13.2** Declare uma variável numero e atribua um valor numérico a ela. Utilize um condicional if para verificar se o número é positivo. Se o número for positivo, imprima "O número é positivo". Caso contrário, imprima "O número é negativo".
+
+```javascript
+let numero = -10;
+let sinal = Math.sign(numero);
+
+if (sinal < 0) {
+    console.log("O número é negativo");
+} else {
+    console.log("O número é positivo");
+};
+```
+
+**Resultado:**
+
+![Exercício 36](./assets/Exer36.png)
