@@ -15,6 +15,7 @@
 11. [OPERADOR TYPEOF](README.md#11-operador-typeof)
 12. [OPERADOR SPREAD](README.md#12-operador-spread)
 13. [CONDICIONAL IF E IF ELSE](README.md#13-condicional-if-e-if-else)
+14. [SWITCH CASE](README.md#14-switch-case)
 
 ## 1. COMENTÁRIOS
 
@@ -629,3 +630,42 @@ if (string1 === string2) {
 **Resultado:**
 
 ![Exercício 37](./assets/Exer37.png)
+
+## 14. SWITCH CASE
+
+**14.1** Crie uma variável chamada diaSemana e atribua um número de 1 a 7 representando um dia da semana. Utilize um bloco switch para imprimir o nome do dia correspondente ao número.
+
+```javascript
+let diaSemana = 6;
+
+switch (diaSemana) {
+    case 1:
+        console.log("Domingo.");
+        break;
+    case 2:
+        console.log("Segunda-feira.");
+        break;
+    case 3:
+        console.log("Terça-feira.");
+        break;
+    case 4:
+        console.log("Quarta-feira.");
+        break;
+    case 5:
+        console.log("Quinta-feira.");
+        break;
+    case 6:
+        console.log("Sexta-feira.");
+        break;
+    case 7:
+        console.log("Sábado.");
+        break;
+    default:
+        console.log("Não é um dos dias da semana.");
+        break;
+};
+```
+
+**Resultado:**
+
+![Exercício 38](./assets/Exer38.png)
