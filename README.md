@@ -612,3 +612,20 @@ if (sinal < 0) {
 **Resultado:**
 
 ![Exercício 36](./assets/Exer36.png)
+
+**13.3** Declare duas variáveis de string string1 e string2 e atribua valores diferentes a elas. Use um condicional if-else para verificar se as duas strings são iguais. Se forem iguais, imprima "As strings são iguais". Caso contrário, imprima "As strings são diferentes".
+
+```javascript
+let string1 = "abacate";
+let string2 = "mamao";
+
+if (string1 === string2) {
+    console.log("As strings são iguais.");
+} else {
+    console.log("As strings são diferentes.");
+};
+```
+
+**Resultado:**
+
+![Exercício 37](./assets/Exer37.png)
