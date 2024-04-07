@@ -721,3 +721,34 @@ switch (mes) {
 **Resultado:**
 
 ![Exercício 39](./assets/Exer39.png)
+
+**14.3** Crie uma variável chamada numero e atribua um número de 1 a 5. Utilize um bloco switch para imprimir uma mensagem diferente para cada número.
+
+```javascript
+let numero = 4;
+
+switch (numero) {
+    case 1:
+        console.log("Um é o começo de grandes jornadas!");
+        break;
+    case 2:
+        console.log("Dois olhos vendo, duas mãos criando!");
+        break;
+    case 3:
+        console.log("Três é a magia da trindade!");
+        break;
+    case 4:
+        console.log("Quatro estações, quatro direções!");
+        break;
+    case 5:
+        console.log("Cinco sentidos, cinco estrelas para você!");
+        break;
+    default:
+        console.log("Número fora do intervalo de 1 a 5.");
+        break;
+};
+```
+
+**Resultado:**
+
+![Exercício 40](./assets/Exer40.png)
