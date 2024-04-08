@@ -16,6 +16,7 @@
 12. [OPERADOR SPREAD](README.md#12-operador-spread)
 13. [CONDICIONAL IF E IF ELSE](README.md#13-condicional-if-e-if-else)
 14. [SWITCH CASE](README.md#14-switch-case)
+15. [LOOP FOR (ESTRUTURA DE REPETIÇÃO DEFINIDA)](README.md#15-loop-for-estrutura-de-repetição-definida)
 
 ## 1. COMENTÁRIOS
 
@@ -752,3 +753,17 @@ switch (numero) {
 **Resultado:**
 
 ![Exercício 40](./assets/Exer40.png)
+
+## 15. LOOP FOR (ESTRUTURA DE REPETIÇÃO DEFINIDA)
+
+**15.1** Utilize um loop for para exibir os números de 1 a 5 no console.
+
+```javascript
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+};
+```
+
+**Resultado:**
+
+![Exercício 41](./assets/Exer41.png)
