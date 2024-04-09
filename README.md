@@ -767,3 +767,16 @@ for (let i = 1; i <= 5; i++) {
 **Resultado:**
 
 ![Exercício 41](./assets/Exer41.png)
+
+
+**15.2** Utilize um loop for para exibir os números de 5 a 1 no console.
+
+```javascript
+for (let num = 5; num >= 1; num--) {
+    console.log(num);
+};
+```
+
+**Resultado:**
+
+![Exercício 42](./assets/Exer42.png)
