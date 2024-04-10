@@ -780,3 +780,18 @@ for (let num = 5; num >= 1; num--) {
 **Resultado:**
 
 ![Exercício 42](./assets/Exer42.png)
+
+**15.3** Utilize um loop for para exibir a tabuada do 7 (de 0 a 10) no console.
+
+```javascript
+const numeroDaTabuada = 7;
+
+for (let i = 0; i <= 10; i++) {
+    let res = numeroDaTabuada * i;
+    console.log(`${numeroDaTabuada} * ${i} = ${res}`);
+};
+```
+
+**Resultado:**
+
+![Exercício 43](./assets/Exer43.png)
