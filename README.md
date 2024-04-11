@@ -17,6 +17,7 @@
 13. [CONDICIONAL IF E IF ELSE](README.md#13-condicional-if-e-if-else)
 14. [SWITCH CASE](README.md#14-switch-case)
 15. [LOOP FOR (ESTRUTURA DE REPETIÇÃO DEFINIDA)](README.md#15-loop-for-estrutura-de-repetição-definida)
+16. [LOOP FOR-IN E FOR-OF](README.md#16-loop-for-in-e-for-of)
 
 ## 1. COMENTÁRIOS
 
@@ -795,3 +796,23 @@ for (let i = 0; i <= 10; i++) {
 **Resultado:**
 
 ![Exercício 43](./assets/Exer43.png)
+
+## 16. LOOP FOR-IN E FOR-OF
+
+**16.1** Crie um objeto chamado carro com algumas propriedades (por exemplo, modelo, ano, cor). Use o loop for-in para percorrer todas as propriedades do objeto e imprima no console cada propriedade e seu valor.
+
+```javascript
+let carro = {
+    modelo: "Rubicon",
+    ano: 2024,
+    cor: "Prata"
+};
+
+for (let propriedade in carro) {
+    console.log(`${propriedade}: ${carro[propriedade]}`);
+};
+```
+
+**Resultado:**
+
+![Exercício 44](./assets/Exer44.png)
