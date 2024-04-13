@@ -816,3 +816,21 @@ for (let propriedade in carro) {
 **Resultado:**
 
 ![Exercício 44](./assets/Exer44.png)
+
+**16.2** Crie um array chamado frutas com alguns elementos (por exemplo, "maçã", "banana", "laranja"). Use um loop for-of para percorrer todos os elementos do array e imprima no console cada elemento.
+
+```javascript
+let frutas = [
+    "Maçã",
+    "Banana",
+    "Laranja"
+];
+
+for (let comida of frutas) {
+    console.log(comida);
+};
+```
+
+**Resultado:**
+
+![Exercício 45](./assets/Exer45.png)
