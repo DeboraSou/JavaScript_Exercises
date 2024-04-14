@@ -834,3 +834,17 @@ for (let comida of frutas) {
 **Resultado:**
 
 ![Exercício 45](./assets/Exer45.png)
+
+**16.3** Crie uma string chamada nome com um nome. Use o loop for-of para percorrer cada caractere da string e imprima no console cada caractere.
+
+```javascript
+const nome = "Peter";
+
+for (let caractere of nome) {
+    console.log(caractere);
+};
+```
+
+**Resultado:**
+
+![Exercício 46](./assets/Exer46.png)
