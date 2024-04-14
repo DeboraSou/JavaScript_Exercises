@@ -1,4 +1,12 @@
-# EXERCÍCIOS JAVASCRIPT
+<div align="center">
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" title="JavaScript | MDN" target="_blank" rel='noopener noreferrer'>
+    <img src="assets/javascript.png" width="200" alt="Ícone JavaScript">
+  </a>
+</div><br />
+
+<div align="center">
+<h1>EXERCÍCIOS JAVASCRIPT</h1>
+</div><br />
 
 ## ÍNDICE
 
@@ -848,3 +856,7 @@ for (let caractere of nome) {
 **Resultado:**
 
 ![Exercício 46](./assets/Exer46.png)
+
+## CRÉDITOS
+
+O ícone de JavaScript utilizado neste projeto foi gentilmente disponibilizado por <a href="https://www.flaticon.com/br/icones-gratis/javascript" title="Javascript ícones" target="_blank" rel='noopener noreferrer'>Freepik - Flaticon</a>. Agradecimentos especiais aos criadores e colaboradores por disponibilizarem seu trabalho de forma gratuita.
