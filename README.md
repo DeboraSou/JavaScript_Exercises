@@ -26,6 +26,7 @@
 14. [SWITCH CASE](README.md#14-switch-case)
 15. [LOOP FOR (ESTRUTURA DE REPETIÇÃO DEFINIDA)](README.md#15-loop-for-estrutura-de-repetição-definida)
 16. [LOOP FOR-IN E FOR-OF](README.md#16-loop-for-in-e-for-of)
+17. [LOOP WHILE (ESTRUTURA DE REPETIÇÃO INDEFINIDA)](README.md#17-loop-while-estrutura-de-repetição-indefinida)
 
 ## 1. COMENTÁRIOS
 
@@ -856,6 +857,23 @@ for (let caractere of nome) {
 **Resultado:**
 
 ![Exercício 46](./assets/Exer46.png)
+
+## 17. LOOP WHILE (ESTRUTURA DE REPETIÇÃO INDEFINIDA)
+
+**17.1** Escreva um programa que use o loop while para imprimir uma contagem regressiva de 5 a 1 no console.
+
+```javascript
+let contador = 5;
+
+while (contador >= 1) {
+    console.log(contador);
+    contador--;
+};
+```
+
+**Resultado:**
+
+![Exercício 47](./assets/Exer47.png)
 
 ## CRÉDITOS
 
