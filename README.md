@@ -875,6 +875,21 @@ while (contador >= 1) {
 
 ![Exercício 47](./assets/Exer47.png)
 
+**17.2** Escreva um programa que utilize o loop while para imprimir os números pares de 2 a 10 no console.
+
+```javascript
+let numero = 2;
+
+while (numero <= 10) {
+    console.log(numero);
+    numero += 2;
+}
+```
+
+**Resultado:**
+
+![Exercício 48](./assets/Exer48.png)
+
 ## CRÉDITOS
 
 - O ícone de JavaScript utilizado neste projeto foi gentilmente disponibilizado por <a href="https://www.flaticon.com/br/icones-gratis/javascript" title="Javascript ícones" target="_blank" rel='noopener noreferrer'>Freepik - Flaticon</a>. Agradecimentos especiais aos criadores e colaboradores por disponibilizarem seu trabalho de forma gratuita.
