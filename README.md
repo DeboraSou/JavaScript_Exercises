@@ -890,6 +890,27 @@ while (numero <= 10) {
 
 ![Exercício 48](./assets/Exer48.png)
 
+**17.3** Crie um programa que solicite ao usuário que adivinhe um número entre 1 e 5. Use o loop while para continuar pedindo ao usuário que adivinhe até que ele acerte o número.
+
+```javascript
+const numero = 3;
+let tentativa;
+
+while (tentativa !== numero) {
+    tentativa = parseInt(prompt("Adivinhe o número entre 1 e 5:"));
+
+    if (tentativa === numero) {
+        console.log("%cParabéns! Você acertou!", 'color: blue');
+    } else {
+        console.log("%cVocê errou, tente novamente.", 'color: red');
+    }
+}
+```
+
+**Resultado:**
+
+![Exercício 49](./assets/Exer49.png)
+
 ## CRÉDITOS
 
 - O ícone de JavaScript utilizado neste projeto foi gentilmente disponibilizado por <a href="https://www.flaticon.com/br/icones-gratis/javascript" title="Javascript ícones" target="_blank" rel='noopener noreferrer'>Freepik - Flaticon</a>. Agradecimentos especiais aos criadores e colaboradores por disponibilizarem seu trabalho de forma gratuita.
