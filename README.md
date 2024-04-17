@@ -909,7 +909,8 @@ while (tentativa !== numero) {
 
 **Resultado:**
 
-![Exercício 49](./assets/Exer49.png)
+![Exercício 49](./assets/Exer49.1.png.png)
+![Exercício 49](./assets/Exer49.2.png.png)
 
 ## CRÉDITOS
 
