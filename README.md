@@ -27,6 +27,7 @@
 15. [LOOP FOR (ESTRUTURA DE REPETIÇÃO DEFINIDA)](README.md#15-loop-for-estrutura-de-repetição-definida)
 16. [LOOP FOR-IN E FOR-OF](README.md#16-loop-for-in-e-for-of)
 17. [LOOP WHILE (ESTRUTURA DE REPETIÇÃO INDEFINIDA)](README.md#17-loop-while-estrutura-de-repetição-indefinida)
+18. [LOOP DO WHILE (ESTRUTURA DE REPETIÇÃO INDEFINIDA)](README.md#18-loop-do-while-estrutura-de-repetição-indefinida)
 
 ## 1. COMENTÁRIOS
 
@@ -911,6 +912,25 @@ while (tentativa !== numero) {
 
 ![Exercício 49](./assets/Exer49.1.png)
 ![Exercício 49](./assets/Exer49.2.png)
+
+## 18. LOOP DO WHILE (ESTRUTURA DE REPETIÇÃO INDEFINIDA)
+
+**18.1** Escreva um programa que use o loop do-while para imprimir a contagem regressiva de 5 a 1 no console.
+
+```javascript
+let contador = 5;
+
+do {
+    console.log(contador);
+    contador--;
+}
+
+while (contador > 0);
+```
+
+**Resultado:**
+
+![Exercício 50](./assets/Exer50.png)
 
 ## CRÉDITOS
 
