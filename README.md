@@ -932,6 +932,8 @@ while (contador > 0);
 
 ![Exercício 50](./assets/Exer50.png)
 
+[VOLTAR PARA ÍNDICE](#índice)
+
 ## CRÉDITOS
 
 - O ícone de JavaScript utilizado neste projeto foi gentilmente disponibilizado por <a href="https://www.flaticon.com/br/icones-gratis/javascript" title="Javascript ícones" target="_blank" rel='noopener noreferrer'>Freepik - Flaticon</a>. Agradecimentos especiais aos criadores e colaboradores por disponibilizarem seu trabalho de forma gratuita.
