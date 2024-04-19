@@ -932,6 +932,28 @@ while (contador > 0);
 
 ![Exercício 50](./assets/Exer50.png)
 
+**18.2** Crie um programa que solicite ao usuário inserir um número através do prompt. Utilize o loop do-while para continuar pedindo ao usuário até que ele insira um número maior que 10. A cada iteração, informe ao usuário que o número inserido é muito baixo.
+
+```javascript
+let tentativa;
+
+do {
+    tentativa = parseInt(prompt("Insira um número maior do que 10:"));
+    if (tentativa <= 10) {
+        console.log("O número inserido é muito baixo!");
+    }
+}
+
+while (tentativa <= 10) {
+    console.log("Bom trabalho!");
+}
+```
+
+**Resultado:**
+
+![Exercício 51](./assets/Exer51.png)
+![Exercício 51](./assets/Exer51.1.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
