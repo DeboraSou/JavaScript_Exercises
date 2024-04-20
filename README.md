@@ -954,6 +954,23 @@ while (tentativa <= 10) {
 ![Exercício 51](./assets/Exer51.png)
 ![Exercício 51](./assets/Exer51.1.png)
 
+**18.3** Escreva um programa que use o loop do-while para imprimir os números pares de 2 a 10 no console.
+
+```javascript
+let numero = 2;
+
+do {
+    console.log(numero);
+    numero += 2;
+}
+
+while (numero <= 10);
+```
+
+**Resultado:**
+
+![Exercício 52](./assets/Exer52.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
