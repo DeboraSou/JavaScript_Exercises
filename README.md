@@ -28,6 +28,7 @@
 16. [LOOP FOR-IN E FOR-OF](README.md#16-loop-for-in-e-for-of)
 17. [LOOP WHILE (ESTRUTURA DE REPETIÇÃO INDEFINIDA)](README.md#17-loop-while-estrutura-de-repetição-indefinida)
 18. [LOOP DO WHILE (ESTRUTURA DE REPETIÇÃO INDEFINIDA)](README.md#18-loop-do-while-estrutura-de-repetição-indefinida)
+19. [BREAK E CONTINUE](README.md#19-break-e-continue)
 
 ## 1. COMENTÁRIOS
 
@@ -970,6 +971,35 @@ while (numero <= 10);
 **Resultado:**
 
 ![Exercício 52](./assets/Exer52.png)
+
+## 19. BREAK E CONTINUE
+
+**19.1** Escreva um programa que utilize o loop (for ou while) para iterar sobre números de 1 a 10. O programa deve imprimir cada número no console, mas ao encontrar o número 5, deve interromper o loop utilizando break.
+
+```javascript
+console.log("Break com For:");
+for (let i = 1; i <= 10; i++) {
+    if (i === 5) {
+        break;
+    }
+    console.log(i);
+}
+
+console.log("\nBreak com While:");
+let num = 1;
+
+while (num <= 10) {
+    if (num === 5) {
+        break;
+    }
+    console.log(num);
+    num++;
+}
+```
+
+**Resultado:**
+
+![Exercício 53](./assets/Exer53.png)
 
 [VOLTAR PARA ÍNDICE](#índice)
 
