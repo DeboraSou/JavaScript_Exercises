@@ -1001,6 +1001,34 @@ while (num <= 10) {
 
 ![Exercício 53](./assets/Exer53.png)
 
+**19.2** Escreva um programa que utilize o loop (for ou while) para iterar sobre números de 1 a 10. O programa deve imprimir todos os números, exceto o número 3. Utilize continue para pular a impressão do número 3.
+
+```javascript
+console.log("Continue com For:");
+for (let i = 1; i <= 10; i++) {
+    if (i === 3) {
+        continue;
+    }
+    console.log(`${i}`);
+}
+
+console.log("\nContinue com While:");
+let j = 1;
+
+while (j <= 10) {
+    if (j === 3) {
+        j++;
+        continue;
+    }
+    console.log(j);
+    j++;
+}
+```
+
+**Resultado:**
+
+![Exercício 54](./assets/Exer54.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
