@@ -1029,6 +1029,35 @@ while (j <= 10) {
 
 ![Exercício 54](./assets/Exer54.png)
 
+**19.3** Crie um programa que utilize o loop (for ou while) para iterar sobre números de 1 a 20. O programa deve imprimir apenas os números pares. Utilize continue para pular a impressão dos números ímpares.
+
+```javascript
+console.log("Impressão dos números pares com For e Continue:");
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 !== 0) {
+        continue;
+    }
+
+    console.log(i);
+}
+
+console.log("\nImpressão dos números pares com While e Continue:");
+let j = 1;
+
+while (j <= 20) {
+    if (j % 2 !== 0) {
+        j++;
+        continue;
+    }
+    console.log(j);
+    j++;
+}
+```
+
+**Resultado:**
+
+![Exercício 55](./assets/Exer55.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
