@@ -29,6 +29,7 @@
 17. [LOOP WHILE (ESTRUTURA DE REPETIÇÃO INDEFINIDA)](README.md#17-loop-while-estrutura-de-repetição-indefinida)
 18. [LOOP DO WHILE (ESTRUTURA DE REPETIÇÃO INDEFINIDA)](README.md#18-loop-do-while-estrutura-de-repetição-indefinida)
 19. [BREAK E CONTINUE](README.md#19-break-e-continue)
+20. [FUNÇÃO](README.md#20-função)
 
 ## 1. COMENTÁRIOS
 
@@ -1057,6 +1058,22 @@ while (j <= 20) {
 **Resultado:**
 
 ![Exercício 55](./assets/Exer55.png)
+
+## 20. FUNÇÃO
+
+**20.1** Crie uma função chamada saudacao que recebe o parâmetro nome. Dentro da função, imprima uma saudação no console, como "Olá, [nome]!". Chame a função passando um nome como argumento.
+
+```javascript
+function saudacao(nome) {
+    console.log("Olá, " + nome + "!");
+};
+
+saudacao("Laura");
+```
+
+**Resultado:**
+
+![Exercício 56](./assets/Exer56.png)
 
 [VOLTAR PARA ÍNDICE](#índice)
 
