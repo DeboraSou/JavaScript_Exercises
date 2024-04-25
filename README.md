@@ -1075,6 +1075,21 @@ saudacao("Laura");
 
 ![Exercício 56](./assets/Exer56.png)
 
+**20.2** Crie uma função chamada soma que recebe dois parâmetros a e b. Dentro da função, calcule a soma de a e b e imprima o resultado no console. Chame a função com dois números diferentes.
+
+```javascript
+function soma(a, b) {
+    let resultado = a + b;
+    console.log("A soma de " + a + " + " + b + " é: " + resultado);
+}
+
+soma(26, 48);
+```
+
+**Resultado:**
+
+![Exercício 57](./assets/Exer57.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
