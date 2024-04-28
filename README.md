@@ -1090,6 +1090,27 @@ soma(26, 48);
 
 ![Exercício 57](./assets/Exer57.png)
 
+**20.3** Crie uma função chamada verificaParImpar que recebe um número como parâmetro. Dentro da função, verifique se o número é par ou ímpar. Imprima no console se o número é par ou ímpar. Chame a função com diferentes números.
+
+```javascript
+function verificarParImpar(numero) {
+    if (numero % 2 === 0) {
+        console.log(`O número ${numero}, é Par!`);
+    } else {
+        console.log(`O número ${numero}, é Ímpar!`);
+    }
+}
+
+verificarParImpar(5);
+verificarParImpar(18);
+verificarParImpar(27);
+verificarParImpar(36);
+```
+
+**Resultado:**
+
+![Exercício 58](./assets/Exer58.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
