@@ -30,6 +30,7 @@
 18. [LOOP DO WHILE (ESTRUTURA DE REPETIÇÃO INDEFINIDA)](README.md#18-loop-do-while-estrutura-de-repetição-indefinida)
 19. [BREAK E CONTINUE](README.md#19-break-e-continue)
 20. [FUNÇÃO](README.md#20-função)
+21. [FUNÇÕES QUE RETORNAM VALORES](README.md#21-funções-que-retornam-valores)
 
 ## 1. COMENTÁRIOS
 
@@ -1110,6 +1111,24 @@ verificarParImpar(36);
 **Resultado:**
 
 ![Exercício 58](./assets/Exer58.png)
+
+## 21. FUNÇÕES QUE RETORNAM VALORES
+
+**21.1** Crie uma função chamada soma que recebe dois parâmetros (números) e retorna a soma deles. Chame a função com dois números de sua escolha e imprima o resultado no console.
+
+```javascript
+
+function soma(v1, v2) {
+    return v1 + v2;
+}
+
+let resultado = soma(5, 6);
+console.log(resultado);
+```
+
+**Resultado:**
+
+![Exercício 59](./assets/Exer59.png)
 
 [VOLTAR PARA ÍNDICE](#índice)
 
