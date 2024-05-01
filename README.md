@@ -1117,7 +1117,6 @@ verificarParImpar(36);
 **21.1** Crie uma função chamada soma que recebe dois parâmetros (números) e retorna a soma deles. Chame a função com dois números de sua escolha e imprima o resultado no console.
 
 ```javascript
-
 function soma(v1, v2) {
     return v1 + v2;
 }
@@ -1129,6 +1128,21 @@ console.log(resultado);
 **Resultado:**
 
 ![Exercício 59](./assets/Exer59.png)
+
+**21.2** Crie uma função chamada calcularAreaRetangulo que recebe a largura e altura de um retângulo como parâmetros e retorna a área. Chame a função com valores de largura e altura de sua escolha e imprima o resultado no console.
+
+```javascript
+function calcularAreaRetangulo(largura, altura) {
+    return largura * altura;
+};
+
+let area = calcularAreaRetangulo(10, 15);
+console.log(area);
+```
+
+**Resultado:**
+
+![Exercício 60](./assets/Exer60.png)
 
 [VOLTAR PARA ÍNDICE](#índice)
 
