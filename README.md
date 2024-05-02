@@ -1144,6 +1144,21 @@ console.log(area);
 
 ![Exercício 60](./assets/Exer60.png)
 
+**21.3** Crie uma função chamada verificarParOuImpar que recebe um número como parâmetro e retorna a string "Par" se o número for par, ou "Ímpar" se for ímpar. Chame a função com um número de sua escolha e imprima o resultado no console.
+
+```javascript
+function verificarParOuImpar(numero) {
+    return numero % 2 === 0 ? "Par" : "Ímpar";
+};
+
+let resultado = verificarParOuImpar(6);
+console.log("O número escolhido é: " + resultado);
+```
+
+**Resultado:**
+
+![Exercício 61](./assets/Exer61.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
