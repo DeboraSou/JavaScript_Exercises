@@ -31,6 +31,7 @@
 19. [BREAK E CONTINUE](README.md#19-break-e-continue)
 20. [FUNÇÃO](README.md#20-função)
 21. [FUNÇÕES QUE RETORNAM VALORES](README.md#21-funções-que-retornam-valores)
+22. [FUNÇÕES PARAMETRIZADAS](README.md#22-funções-parametrizadas)
 
 ## 1. COMENTÁRIOS
 
@@ -1158,6 +1159,23 @@ console.log("O número escolhido é: " + resultado);
 **Resultado:**
 
 ![Exercício 61](./assets/Exer61.png)
+
+## 22. FUNÇÕES PARAMETRIZADAS
+
+**22.1** Crie uma função chamada divisao que aceite dois parâmetros, c e d. Dentro da função, divida os dois parâmetros. Retorne o resultado da divisão.
+
+```javascript
+function divisao(c, d) {
+    return c / d;
+}
+
+let res = divisao(10, 2);
+console.log("Resultado da divisão: " + res);
+```
+
+**Resultado:**
+
+![Exercício 62](./assets/Exer62.png)
 
 [VOLTAR PARA ÍNDICE](#índice)
 
