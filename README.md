@@ -1192,6 +1192,21 @@ console.log(res);
 
 ![Exercício 63](./assets/Exer63.png)
 
+**22.3** Crie uma função chamada maiorNumero que aceite dois parâmetros, num1 e num2. Dentro da função, compare os dois números e retorne o maior deles.
+
+```javascript
+function maiorNumero(num1, num2) {
+    return num1 > num2 ? num1 : num2;
+};
+
+let res = maiorNumero(51, 300);
+console.log(res);
+```
+
+**Resultado:**
+
+![Exercício 64](./assets/Exer64.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
