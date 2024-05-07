@@ -1177,6 +1177,21 @@ console.log("Resultado da divisão: " + res);
 
 ![Exercício 62](./assets/Exer62.png)
 
+**22.2** Crie uma função chamada concatenar que aceite dois parâmetros, str1 e str2. Dentro da função, concatene as duas strings. Retorne a string resultante.
+
+```javascript
+function concatenar(str1, str2) {
+    return str1 + " " + str2;
+};
+
+let res = concatenar("Bom", "dia!");
+console.log(res);
+```
+
+**Resultado:**
+
+![Exercício 63](./assets/Exer63.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
