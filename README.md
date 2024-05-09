@@ -32,6 +32,7 @@
 20. [FUNÇÃO](README.md#20-função)
 21. [FUNÇÕES QUE RETORNAM VALORES](README.md#21-funções-que-retornam-valores)
 22. [FUNÇÕES PARAMETRIZADAS](README.md#22-funções-parametrizadas)
+23. [PARÂMETRO REST EM FUNÇÕES](README.md#23-parâmetro-rest-em-funções)
 
 ## 1. COMENTÁRIOS
 
@@ -1206,6 +1207,24 @@ console.log(res);
 **Resultado:**
 
 ![Exercício 64](./assets/Exer64.png)
+
+## 23. PARÂMETRO REST EM FUNÇÕES
+
+**23.1** Crie uma função chamada multiplicacao que aceite qualquer número de argumentos e retorne a multiplicação deles.
+
+```javascript
+function multiplicacao(...numeros) {
+    // reduce: É um método usado para multiplicar os valores no array numeros.
+    return numeros.reduce((acumulador, valorAtual) => acumulador * valorAtual, 1);
+
+};
+
+console.log(multiplicacao(5, 5, 5, 5, 5)); // 3125.
+```
+
+**Resultado:**
+
+![Exercício 65](./assets/Exer65.png)
 
 [VOLTAR PARA ÍNDICE](#índice)
 
