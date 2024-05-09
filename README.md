@@ -1226,6 +1226,20 @@ console.log(multiplicacao(5, 5, 5, 5, 5)); // 3125.
 
 ![Exercício 65](./assets/Exer65.png)
 
+**23.2** Crie uma função chamada concatenaPalavras que aceite strings como argumentos e retorne uma única string resultante da concatenação de todas as palavras.
+
+```javascript
+function concatenaPalavras(...palavras) {
+    return palavras.join(' ');
+}
+
+console.log(concatenaPalavras("Olá", "como", "vai", "você?"));
+```
+
+**Resultado:**
+
+![Exercício 66](./assets/Exer66.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
