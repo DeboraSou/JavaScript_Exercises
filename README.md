@@ -1240,6 +1240,21 @@ console.log(concatenaPalavras("Olá", "como", "vai", "você?"));
 
 ![Exercício 66](./assets/Exer66.png)
 
+**23.3** Crie uma função chamada calculaMedia que aceite qualquer número de argumentos e retorne a média deles.
+
+```javascript
+function calculaMedia(...valores) {
+    const soma = valores.reduce((acumulador, numero) => acumulador + numero, 0);
+    return soma / valores.length;
+}
+
+console.log(calculaMedia(7, 9, 8, 10));
+```
+
+**Resultado:**
+
+![Exercício 67](./assets/Exer67.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
