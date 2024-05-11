@@ -33,6 +33,7 @@
 21. [FUNÇÕES QUE RETORNAM VALORES](README.md#21-funções-que-retornam-valores)
 22. [FUNÇÕES PARAMETRIZADAS](README.md#22-funções-parametrizadas)
 23. [PARÂMETRO REST EM FUNÇÕES](README.md#23-parâmetro-rest-em-funções)
+24. [FUNÇÕES ANÔNIMAS](README.md#24-funções-anônimas)
 
 ## 1. COMENTÁRIOS
 
@@ -1254,6 +1255,23 @@ console.log(calculaMedia(7, 9, 8, 10));
 **Resultado:**
 
 ![Exercício 67](./assets/Exer67.png)
+
+## 24. FUNÇÕES ANÔNIMAS
+
+**24.1** Declare uma função anônima que recebe dois parâmetros, a e b. Dentro da função, retorne a soma de a e b. Chame a função com alguns valores e imprima o resultado no console.
+
+```javascript
+let soma = function (a, b) {
+    return a + b;
+};
+
+let resultado = 5 + 8;
+console.log(resultado);
+```
+
+**Resultado:**
+
+![Exercício 68](./assets/Exer68.png)
 
 [VOLTAR PARA ÍNDICE](#índice)
 
