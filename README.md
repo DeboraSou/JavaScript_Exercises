@@ -1291,6 +1291,22 @@ executaFuncao(minhaFruncao, 4, 6);
 
 ![Exercício 69](./assets/Exer69.png)
 
+**24.3** Crie um array com alguns números. Utilize a função map para criar um novo array, onde cada elemento é o resultado de dobrar o valor original. Utilize uma função anônima como argumento para o map.
+
+```javascript
+let matriz = [2, 4, 6, 8, 10];
+
+let dobrados = matriz.map(function (numero) {
+    return numero * 2;
+});
+
+console.log(dobrados);
+```
+
+**Resultado:**
+
+![Exercício 70](./assets/Exer70.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
