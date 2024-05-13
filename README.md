@@ -1273,6 +1273,24 @@ console.log(resultado);
 
 ![Exercício 68](./assets/Exer68.png)
 
+**24.2** Declare uma função anônima que recebe uma função como argumento. Dentro da função anônima, chame a função recebida com alguns argumentos. Chame a função anônima com uma função específica como argumento.
+
+```javascript
+let executaFuncao = function (funcao, argumento1, argumento2) {
+    funcao(argumento1, argumento2);
+};
+
+let minhaFruncao = function (a, b) {
+    console.log("Resultado: ", a * b);
+};
+
+executaFuncao(minhaFruncao, 4, 6);
+```
+
+**Resultado:**
+
+![Exercício 69](./assets/Exer69.png)
+
 [VOLTAR PARA ÍNDICE](#índice)
 
 ## CRÉDITOS
