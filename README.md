@@ -34,6 +34,7 @@
 22. [FUNÇÕES PARAMETRIZADAS](README.md#22-funções-parametrizadas)
 23. [PARÂMETRO REST EM FUNÇÕES](README.md#23-parâmetro-rest-em-funções)
 24. [FUNÇÕES ANÔNIMAS](README.md#24-funções-anônimas)
+25. [FUNÇÃO CONSTRUTOR (PARA FUNÇÕES SIMPLES)](README.md#25-função-construtor-para-funções-simples)
 
 ## 1. COMENTÁRIOS
 
@@ -1306,6 +1307,27 @@ console.log(dobrados);
 **Resultado:**
 
 ![Exercício 70](./assets/Exer70.png)
+
+## 25. FUNÇÃO CONSTRUTOR (PARA FUNÇÕES SIMPLES)
+
+**25.1** Crie uma função construtora chamada Pessoa que recebe parâmetros para o nome e a idade da pessoa. A função deve atribuir esses parâmetros às propriedades nome e idade do objeto.
+
+```javascript
+function Pessoa(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+};
+
+let pessoa1 = new Pessoa("Sarah", 36);
+console.log(pessoa1);
+
+let pessoa2 = new Pessoa("Matheus", 25);
+console.log(pessoa2);
+```
+
+**Resultado:**
+
+![Exercício 71](./assets/Exer71.png)
 
 [VOLTAR PARA ÍNDICE](#índice)
 
